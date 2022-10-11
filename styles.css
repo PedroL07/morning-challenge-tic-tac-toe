@@ -1,0 +1,59 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0%;
+}
+
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+.tittle,button{
+ 
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.instruction {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  background: black;
+  color: white;
+}
+.boxes {
+  width: 100%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+  
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9 {
+  width: 30%;
+  margin: 1%;
+  border: 1px solid black;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.288);
+  
+}
+
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
